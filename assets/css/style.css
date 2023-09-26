@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6495ED;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 75vw;
+    height: 40vh;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box input {
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.box label {
+    margin-top: 10px;
+}
+
+.btn-button {
+    margin: 20px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #6495ED;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 750;
+}
+
+.btn-button:hover {
+    background: #00BFFF;
+    color: black;
+}
+
+.btn-button:active {
+    transform: scale(0.98);
+}
+
+.peso {
+    padding-left:78px;
+    width: 180px
+}
+
+.altura {
+    padding-left:78px;
+    width: 180px
+}
+
+@media (min-width:400px) {
+    .box {
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .box {
+        width: 90%;
+    }
+}
+
+.paragrafo-invalido {
+    background: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.bom {
+    background: greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.ruim {
+    background: red;
+    padding: 5px;
+    border-radius: 10px;
+}
